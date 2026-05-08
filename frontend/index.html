@@ -755,6 +755,11 @@
       <p>Start the conversation by describing your symptoms or asking Dr. Chat a question.</p>`;
     messagesEl.appendChild(empty);
   }
+  
+  // Expose functions to the global scope so inline HTML onclick handlers can find them
+  window.sendMessage = sendMessage;
+  window.sendQuick = sendQuick;
+  window.clearChat = clearChat;
 </script>
 </body>
 </html>
