@@ -484,7 +484,6 @@
       .chat-container { max-height: calc(100vh - 100px); }
     }
   </style>
-  <script src="config.js"></script>
 </head>
 <body>
 
@@ -569,7 +568,7 @@
 </div>
 
 <script>
-  const BACKEND_URL = CONFIG.BACKEND_URL;
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
   fetch(BACKEND_URL.replace("/chat", "/health"))
     .catch(() => console.log("Server waking up..."));
