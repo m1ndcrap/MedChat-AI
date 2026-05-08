@@ -3,6 +3,7 @@
 ## Description
 
 MedChat AI is a web-based medical chatbot that simulates a consultation with Dr. Chat, an AI physician. The chatbot is built on a prompt given to gemini to mimic a physician, adapted into a full-stack web application. Users can describe symptoms, ask medical questions, and receive thoughtful responses.
+Try out the chatbot here: https://medchat-ai-ob0q.onrender.com.
 
 The chatbot:
 
